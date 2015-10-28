@@ -1,0 +1,25 @@
+{
+    "name": "alquran/resource",
+    "type": "library",
+    "description": "Alquran in bahasa",
+    "keywords": [
+        "al quran",
+        "quran",
+        "islam"
+    ],
+    "authors": [
+        {
+            "name": "Muhamad Ridwan",
+            "email": "ridwanskaterocks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "stichoza/google-translate-php": "^3.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Alquran\\": "src"
+        }
+    }
+}

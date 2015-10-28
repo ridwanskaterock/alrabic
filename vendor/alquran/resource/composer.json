@@ -1,0 +1,28 @@
+{
+    "name": "alquran/resource",
+    "type": "library",
+    "description": "Alquran in bahasa",
+    "keywords": [
+        "al quran",
+        "quran",
+        "moslem",
+        "muslim",
+        "islam"
+    ],
+    "authors": [
+        {
+            "name": "Muhamad Ridwan",
+            "email": "ridwanskaterocks@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Alquran\\": "src"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
