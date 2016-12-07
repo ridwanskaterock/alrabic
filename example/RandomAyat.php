@@ -13,11 +13,11 @@ $surrah = new Alquran\Resource\Surrah\Surrah;
 
 $alquranArabic = new Alquran\Resource\Component\RandomAlquran\RandomAyat\RandomAyat($sourceQuranArabic);
 
-$alquranArabic->setSurrahNumber(rand(1, 144));
+$alquranArabic->setSurrahNumber(rand(1, $alquranArabic->getTotalSurrah()));
 $content = $alquranArabic->randomAyat();
 
 $html = "<i><span style='font-size:36'>\"</span><span style='font-size:20'>".$content->translate($alquranBahasa)."</span><span style='font-size:36'>\"</span>";
 $html .= "<br>";
-$html .= "- Surat " . $alquranArabic->getSurrahName(). " Ayat " . $alquranArabic->getSurrahNumber();;
+$html .= "- Surat " . $alquranArabic->getSurrahName(). " Ayat " . $alquranArabic->getSurrahNumber();
 
 echo $html;
