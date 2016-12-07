@@ -19,7 +19,7 @@ Requirements
 
 Instalasi
 -----------
-	- $ composer require ridwanskaterock/alrabic
+	- $ composer require alquran/resource
 
 
 
