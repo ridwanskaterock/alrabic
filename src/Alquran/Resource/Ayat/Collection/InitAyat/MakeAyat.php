@@ -23,9 +23,7 @@ class MakeAyat implements MakeAyatInterface
 
 	public function setSurrahNumber($surrahNumber)
 	{
-		if ($surrahNumber) {
-			$this->surrahNumber = $surrahNumber;
-		}
+		$this->surrahNumber = $surrahNumber;
 	}
 
 	public function getSurrahNumber()
