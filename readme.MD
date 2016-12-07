@@ -1,5 +1,3 @@
-Alquran Ayat in Bahasa.
-
 
 Alrabic - Alquran Multi Lang
 ============
@@ -19,7 +17,9 @@ Requirements
 
 Instalasi
 -----------
-	- $ composer require ridwanskaterock/alrabic dev-master
+```bash
+$ composer require ridwanskaterock/alrabic dev-master
+```
 
 
 
