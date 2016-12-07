@@ -4,7 +4,7 @@ Alquran Ayat in Bahasa.
 Alrabic - Alquran Multi Lang
 ============
 
-Al-quran dengan multi bahasa, bahasa indonesia, english dan dapat juga di terjemahkan ke bahasa lain
+Al-quran dengan multi bahasa, bahasa indonesia, arab dan dapat juga di terjemahkan ke bahasa lain
 
 Author
 -------
@@ -25,7 +25,7 @@ Instalasi
 
 Bagaimana cara menggunakannya?
 -----------
-untuk alquran general dengan bahasa indonesia dan inggris
+untuk alquran general dengan bahasa indonesia dan arab
 ```php	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
